@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Fizz Buzz</title>
+		<style>
+			body {
+				text-align: center;
+				background: linear-gradient(#A7ADC6,#5F4B66);
+				color: #2C1320;
+				font-family: Helvetica, sans-serif
+			}
+		</style>
 	</head>
 	<body>
+	<h2>Fizz Buzz</h2>
 	<p id="box"></p>
 	<script>
-		for (var i=1; i<10; i++) {
+		for (var i=1; i<100; i++) {
 			if (i%3==0 && i%5==0) {
 				document.getElementById("box").innerHTML += "fizz buzz<br>";
 			}
